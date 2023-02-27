@@ -1,0 +1,34 @@
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+body { margin: 0; }
+
+header {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0;
+
+    background-color: aquamarine;
+}
+
+header .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.pages {
+    list-style-type: none;
+
+
+    align-items: center;
+    justify-content: space-between;
+
+    width: 20vw;
+}
