@@ -1,24 +1,17 @@
-
-img {
-    width: 100px;
-    height: 100px;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@300;400&display=swap');
+:root {
+    --dark-blue: #1D0C3B;
+    --gray-blue: #453560;
+    --white: whitesmoke;
 }
 
 body {
-    margin: 0;
-}
-
-header {
     display: flex;
-    flex-direction: row;
-
-    justify-content: space-between;
-    align-items: center;
-
+    flex-direction: column;
     margin: 0;
-    padding: 5px;
 
-    background-color: blueviolet;
+    font-family: 'Teko', sans-serif;
+    background-color: var(--dark-blue);
 }
 
 .row {
@@ -26,15 +19,46 @@ header {
     flex-direction: row;
 }
 
-.pages-list {
-    width: 100%;
-    padding: 0;
-    list-style-type: none;
-    align-items: center;
+header {
+    position: sticky;
     justify-content: space-between;
+    background-color: var(--gray-blue);
+    height: 65px;
 }
 
-.page {
-    background-color: rgba(203, 108, 230, 0.5);
-    border: none;
+.left-side { justify-content: space-between; }
+
+.logo {
+    padding: 10px;
+    margin: 0;
 }
+
+.logo img {
+    width: 65px;
+    height: 100%;
+}
+
+.navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-item {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+
+    height: 4rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 17pt;
+}
+
