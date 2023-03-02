@@ -3,7 +3,8 @@
     --black: black;
     --turquoise: #22C29C;
     --violet: #C06DC6;
-    --white: whitesmoke;
+    --white: #f8f0fb;
+    --white-low: rgba(248, 240, 251, 75%);
 }
 
 body {
@@ -12,10 +13,7 @@ body {
     margin: 0;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-}
+.row { display: flex; }
 
 header {
     font-family: 'Teko', sans-serif;
@@ -29,7 +27,7 @@ header {
 .left-side { justify-content: space-between; }
 .right-side {
     justify-content: space-between;
-    width: 12vw;
+    width: 15vw;
     margin: 0px 10px 0px 0px;
 }
 
@@ -59,7 +57,7 @@ header {
     text-transform: uppercase;
     text-align: center;
 
-    color: var(--violet);
+    color: var(--white-low);
     font-size: 17pt;
 }
 
@@ -74,12 +72,13 @@ header {
     display: flex;
     flex-direction: column;
 
-    color: var(--violet);
+    color: var(--white-low);
 
+    width: 60px;
     margin-right: 10px;
 
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .points label {
