@@ -60,12 +60,12 @@
     font-weight: bold;
     text-transform: uppercase;
     background-color: var(--black);
-    color: var(--neon-blue);
-    box-shadow: 0px 5px 10px 0px var(--neon-blue);
+    color: var(--aquamarine);
+    box-shadow: 0px 5px 10px 0px var(--aquamarine);
 }
 
 .page-info a button:hover {
-    background-color: var(--neon-blue);
+    background-color: var(--aquamarine);
     color: var(--black);
 }
 

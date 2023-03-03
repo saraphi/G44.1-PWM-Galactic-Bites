@@ -1,42 +1,63 @@
-
-body {
-    display: flex;
-    justify-content: center;
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+    --black: black;
+    --dark-blue: #332464;
+    --blue: #3C2FA4;
+    --imperial-blue: #5442E5;
+    --aquamarine: #39DEC5;
+    --neon-blue: #03E9F4;
+    --neon-violet: #FF26EB;
+    --white: #f8f0fb;
+    --white-low: rgba(248, 240, 251, 75%);
 }
+
+* { font-family: "Fjalla One", sans-serif; }
 
 .container {
     position: relative;
     width: 100%;
-    height: 20em;
+    height: 30em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
 }
 
-.container .button {
-    position: absolute;
-    top: 80%;
-    left: 90%;
-    transform: translate(-50%, -50%);
-    background-color: rgb(85, 85, 85);
-    color: white;
-    font-size: 1em;
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 33%;
+    height: 70%;
+    margin-top: -27em;
+    margin-left: 62%;
+    align-items: end;
+}
+
+.container-info .button {
+    position: relative;
+    font-size: 17pt;
+    text-transform: uppercase;
     cursor: pointer;
-    padding: 1em 1.5em;
-    border-width: initial;
-    border-style: none;
-    border-color: initial;
-    border-image: initial;
-    border-radius: 5px
+    width: 200px;
+    height: 50px;
+
+    background-color: var(--black);
+    color: var(--white);
 }
 
-.container .title {
-    position: absolute;
-    top: 10%;
-    left: 65%;
-    color: darkorange;
-    font-size: 4em;
+.container-info .title {
+    position: relative;
+    color: var(--white);
+    font-size: 70pt;
+    -webkit-text-stroke: 1px var(--black);
 }
+
 .container .banner {
-    transform: scaleX(-1);
     width: 100%;
-    height: 20em;
+    height: 30em;
+    background-color: var(--white);
 }
+
+.container-info .button:hover { color: var(--aquamarine); }
+.container-info .button:active { transform: translateY(4px); }
