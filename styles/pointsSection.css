@@ -15,7 +15,6 @@
 
 * { font-family: "Raleway", sans-serif; }
 
-body { margin: 0; }
 
 .text-box {
     display: flex;
@@ -30,6 +29,7 @@ body { margin: 0; }
 .clickable-image-box {
     display: inline-flex;
     width: 100%;
+    background-color: var(--white);
 }
 
 .clickable-image .clickable-image { width: 100%; }

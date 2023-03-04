@@ -35,6 +35,7 @@ body { height: 100vh; }
 }
 
 .choose-complement-article .product-list .product { width: 17%; }
+.choose-complement-article .product-list .product .product { width: 100%;}
 
 .choose-complement-article footer {
     display: flex;
