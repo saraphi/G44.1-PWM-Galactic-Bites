@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile View</title>
+    <link rel="stylesheet" href="styles/profileView.css" type="text/css">
+</head>
+<body>
+  <article class="profile">
+    <header class="column">
+      <div class="profile-wallpaper"></div>
+
+      <div class="profile-info column">
+          <img class="profile-icon" src="assets/Placeholder.png">
+          <div class="text column">
+              <label class="name">Lorem Ipsum</label>
+              <label class="email">loremipsum@lorem.ipsum</label>
+          </div>
+      </div>
+      <div class="button-section">
+          <div class="button-list">
+            <img id="edit" class="button" src="assets/icons/edit.png">
+            <img id="logout" class="button" src="assets/icons/logout.png">
+          </div>
+      </div>
+    </header>
+
+    <main class="column">
+        <div id="points-section" class="output-section">
+            <label for="points">Puntos</label>
+            <output id="points" name="points"></output>
+        </div>
+
+        <div id="tel-section" class="output-section column">
+            <label for="tel">Teléfono</label>
+            <output id="tel" name="tel"></output>
+        </div>
+    </main>
+
+    <footer>
+        <button id="delete-button" class="input-button">Borrar Perfil</button>
+    </footer>
+  </article>
+</body>
+</html>
