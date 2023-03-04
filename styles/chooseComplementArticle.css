@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+    --black: black;
+    --dark-blue: #332464;
+    --imperial-blue: #5442E5;
+    --aquamarine: #39DEC5;
+    --violet: #CB7EFF;
+    --pastel-pink: #eeaeca;
+    --red: #FF565D;
+    --white: #f8f0fb;
+    --white-low: rgba(248, 240, 251, 75%);
+}
+
+body { height: 100vh; }
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.choose-complement-article {
+    background-color: var(--white);
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+
+    height: 100%;
+}
+
+.choose-complement-article .title {
+    margin: 40px 10px 40px 10px;
+    font-family: "Raleway", sans-serif;
+    font-size: 50pt;
+    text-transform: uppercase;
+}
+
+.choose-complement-article .product-list .product { width: 17%; }
+
+.choose-complement-article footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+}
+
+.choose-complement-article footer .arrow-button {
+    background-color: var(--white);
+    width: 50px;
+    height: 50px;
+}
+
+.choose-complement-article footer .arrow-button:hover { box-shadow: 0px 0px 10px var(--violet); }
+.choose-complement-article footer .arrow-button:active { transform: translateY(4px); }
