@@ -3,29 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <title>pago</title>
-    <!-- Falta css-->
+    <link rel= "stylesheet" href="styles/payment.css" type="text/css">
+
 </head>
 <body>
   <form class="payment-form">
 
     <div class="section">
       <label for="num">Numero</label>
-      <input id="num" class="input-num" type="number" maxlength="9" >
-    </div>
+      <input id="num" class="input-text" type="number" maxlength="9" >
 
-    <div class="section">
-      <label for="date_expire">Nº de móvil</label>
-      <input id="date_expire" class="input-date input" type="month" >
-    </div>
 
-    <div class="section">
+      <label for="date_expire">Nº de expiracion</label>
+      <input id="date_expire" class="input-text " type="month" >
+
+
       <label for="name">Nombre</label>
-      <input id="name" class="input-text input" type="text">
-    </div>
+      <input id="name" class="input-text " type="text">
 
-    <div class="section">
+
       <label for="cvv">CVV</label>
-      <input id="cvv" class="input-num-cvv" type="number" maxlength="3" >
+      <input id="cvv" class="input-text " type="number" maxlength="3" >
     </div>
 
 
