@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Teko:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+:root {
+    --black: black;
+    --dark-blue: #332464;
+    --blue: #3C2FA4;
+    --imperial-blue: #5442E5;
+    --aquamarine: #39DEC5;
+    --neon-blue: #03E9F4;
+    --neon-violet: #F226FF;
+    --violet: #C06DC6;
+    --white: #f8f0fb;
+    --white-low: rgba(248, 240, 251, 75%);
+}
+
+* { font-family: "Raleway", sans-serif; }
+
+.link0{
+    text-decoration: none;
+
+}
+.new1{
+    background-color: var(--neon-blue);
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+    border: 2px solid black;
+}
+.description{
+
+    margin: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+
+}
+
+.imgnew{
+    color: white;
+    padding: 40px;
+    width: 30%;
+}
+.new2{
+    background-color: var(--neon-blue);
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    border: 2px solid black;
+}
+
+
