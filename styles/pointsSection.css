@@ -32,20 +32,21 @@
 
     background-size: cover;
     width: 100%;
+
+    position: relative;
 }
 .highlight {
-    background-size: cover;
     width: 100%;
 }
 
-.image_link{
-    width: 100%;
-    background-size: cover;
+.image_link a{
 
+    height: 600px;
 }
+
 .image{
     width: 100%;
-    background-size: cover;
+
 
 }
 
@@ -57,6 +58,6 @@
 }
 .unhiglighted {
     width: 25%;
-
+    
 
 }
