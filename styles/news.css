@@ -3,52 +3,51 @@
 :root {
     --black: black;
     --dark-blue: #332464;
-    --blue: #3C2FA4;
     --imperial-blue: #5442E5;
     --aquamarine: #39DEC5;
-    --neon-blue: #03E9F4;
-    --neon-violet: #F226FF;
-    --violet: #C06DC6;
+    --dark-violet: #6B348F;
+    --neon-violet: #8442C6;
+    --violet: #CB7EFF;
+    --pastel-pink: #eeaeca;
+    --red: #FF565D;
     --white: #f8f0fb;
     --white-low: rgba(248, 240, 251, 75%);
 }
 
 * { font-family: "Raleway", sans-serif; }
 
-.link0{
-    text-decoration: none;
+.link { text-decoration: none; }
 
-}
-.new1{
-    background-color: var(--neon-blue);
+.new {
+    background-color: var(--violet);
     display: flex;
-    justify-content: flex-start;
     text-decoration: none;
     border: 2px solid black;
 }
-.description{
 
-    margin: 0px 0px 0px 40px;
+#new-left { justify-content: flex-start; }
+#new-right { justify-content: space-between; }
+
+.description {
+    margin: 0px 40px 0px 40px;
+    width: 65%;
     display: flex;
     flex-direction: column;
     justify-content: left;
+
     font-size: 20pt;
     text-decoration: none;
-    color: black;
-
+    color: var(--black);
 }
 
-.imgnew{
-    color: white;
-    padding: 40px;
+.description .title {
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.link img {
+    background-color: var(--white);
+    margin: 40px;
     width: 30%;
 }
-.new2{
-    background-color: var(--neon-blue);
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-    border: 2px solid black;
-}
-
-
