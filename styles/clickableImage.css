@@ -1,0 +1,16 @@
+.clickable-image {
+    display: flex;
+
+    width: 700px;
+    height: 500px;
+}
+
+.clickable-image .image-link {
+    width: 100%;
+    height: 100%;
+}
+
+.clickable-image .image-link img {
+    width: 100%;
+    height: 100%;
+}
