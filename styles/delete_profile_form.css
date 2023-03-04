@@ -14,6 +14,7 @@
 * {
     color: var(--white);
     font-family: "Raleway", sans-serif;
+    font-weight: bold;
 }
 
 .column {
@@ -21,7 +22,7 @@
     flex-direction: column;
 }
 
-.login-form {
+.delete-form {
     justify-content: space-between;
     align-items: center;
 
@@ -34,14 +35,24 @@
     border-radius: 30px;
 }
 
-.login-form h2 {
+.delete-form .title {
     text-transform: uppercase;
     font-size: 25pt;
+    margin-bottom: -20px;
 }
 
-.login-form .input-section { width: 320px; }
+.delete-form .content-section {
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    height: 55%;
+    width: 90%;
+}
 
-.login-form .input-section input {
+.delete-form .content-section .description { margin-bottom: 30px; }
+.delete-form .content-section .input-section { width: 320px; }
+
+.delete-form .content-section .input-section input {
     height: 2em;
 
     border-radius: 30px;
@@ -50,24 +61,29 @@
 
     position: relative;
     font-size: 14px;
-    font-weight: bold;
     margin-bottom: 20px;
     padding: 5px 12px;
 }
 
-.login-form .input-section input::placeholder {
+.delete-form .button-section {
+    display: flex;
+    width: 125%;
+    margin-left: 88px;
+}
+
+.delete-form .content-section .input-section input::placeholder {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     color: var(--white-low);
     padding-left: 5px;
 }
 
-.login-form .input-section input:focus { box-shadow: 0px 0px 40px var(--violet); }
-.login-form .input-section input:hover { box-shadow: 0px 0px 40px var(--violet); }
-.login-form a { width: 80%; }
+.delete-form .content-section .input-section input:focus { box-shadow: 0px 0px 40px var(--violet); }
+.delete-form .content-section .input-section input:hover { box-shadow: 0px 0px 40px var(--violet); }
+.delete-form .button-section a { width: 80%; }
 
-.login-form a .input-button {
-    width: 100%;
+.delete-form .button-section a .input-button {
+    width: 130px;
     height: 40px;
 
     background-color: var(--black);
@@ -77,24 +93,24 @@
     text-transform: uppercase;
 }
 
-.login-form a #login-button {
+.delete-form .button-section a #cancel-button {
     box-shadow: 0px 3px 5px var(--aquamarine);
     color: var(--aquamarine);
 }
 
-.login-form a #signup-button {
-    box-shadow: 0px 3px 5px var(--violet);
-    color: var(--violet);
+.delete-form .button-section a #delete-button {
+    box-shadow: 0px 3px 5px var(--red);
+    color: var(--red);
 }
 
-.login-form a #login-button:hover {
+.delete-form .button-section a #cancel-button:hover {
     background-color: var(--aquamarine);
     color: var(--black);
 }
 
-.login-form a #signup-button:hover {
-    background-color: var(--violet);
+.delete-form .button-section a #delete-button:hover {
+    background-color: var(--red);
     color: var(--black);
 }
 
-.login-form a .input-button:active { transform: translateY(5px); }
+.delete-form .button-section a .input-button:active { transform: translateY(5px); }
