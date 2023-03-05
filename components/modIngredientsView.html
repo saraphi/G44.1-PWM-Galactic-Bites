@@ -2,53 +2,61 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>mod ingredientes</title>
-    <!--falta css-->
+    <title>Modify Ingredients</title>
+    <link rel="stylesheet" href="styles/views/modIngredientsView.css" type="text/css">
 </head>
 <body>
-  <section class="mod-ingredient">
-    <div class="left-side">
-      <h2>Nombre de Producto</h2>
+  <article class="mod-ingredient">
+    <div class="left-side column">
+      <div class="top">
+        <h2 class="title">Lorem Ipsum</h2>
 
-      <div class="ingredients">
-        <ul class="ingredients-list">
+        <ul class="ingredients-list column">
           <li class="ingredient-item">
-            <p>Ingrediente</p>
-            <input class="ingredient-button sum" name="sum" type="button" placeholder="+1">
-            <output class="ingredient-output" name="num-ingredient" for="sum sub"></output>
-            <input class="ingredient-button sub" name="sub" type="button" placeholder="-1">
+            <p>Lorem Ipsum</p>
+            <div class="right-section">
+              <img class="sum count-button" src="../assets/icons/plus-key-dark.png">
+              <output class="ingredient-output" name="num-ingredient">0</output>
+              <img class="sub count-button" src="../assets/icons/minus-key-dark.png">
+            </div>
           </li>
 
           <li class="ingredient-item">
-            <p>Ingrediente</p>
-            <input class="ingredient-button sum" name="sum" type="button" placeholder="+1">
-            <output class="ingredient-output" name="num-ingredient" for="sum sub"></output>
-            <input class="ingredient-button sub" name="sub" type="button" placeholder="-1">
+            <p>Lorem Ipsum</p>
+            <div class="right-section">
+              <img class="sum count-button" src="../assets/icons/plus-key-dark.png">
+              <output class="ingredient-output" name="num-ingredient">0</output>
+              <img class="sub count-button" src="../assets/icons/minus-key-dark.png">
+            </div>
           </li>
 
           <li class="ingredient-item">
-            <p>Ingrediente</p>
-            <input class="ingredient-button sum" name="sum" type="button" placeholder="+1">
-            <output class="ingredient-output" name="num-ingredient" for="sum sub"></output>
-            <input class="ingredient-button sub" name="sub" type="button" placeholder="-1">
+            <p>Lorem Ipsum</p>
+            <div class="right-section">
+              <img class="sum count-button" src="../assets/icons/plus-key-dark.png">
+              <output class="ingredient-output" name="num-ingredient">0</output>
+              <img class="sub count-button" src="../assets/icons/minus-key-dark.png">
+            </div>
           </li>
 
           <li class="ingredient-item">
-            <p>Ingrediente</p>
-            <input class="ingredient-button sum" name="sum" type="button" placeholder="+1">
-            <output class="ingredient-output" name="num-ingredient" for="sum sub"></output>
-            <input class="ingredient-button sub" name="sub" type="button" placeholder="-1">
+            <p>Lorem Ipsum</p>
+            <div class="right-section">
+              <img class="sum count-button" src="../assets/icons/plus-key-dark.png">
+              <output class="ingredient-output" name="num-ingredient">0</output>
+              <img class="sub count-button" src="../assets/icons/minus-key-dark.png">
+            </div>
           </li>
         </ul>
       </div>
 
       <div class="buttons">
-        <button id="left" class="arrow-button">Siguiente</button>
-        <button id="right" class="arrow-button">Anterior</button>
+        <div id="left" class="arrow-button"><img src="../assets/icons/slider-left.png"></div>
+        <div id="right" class="arrow-button"><img src="../assets/icons/slider-rigth.png"></div>
       </div>
     </div>
 
     <div class="right-side"><img src="../assets/Placeholder.png" alt="Imagen de ejemplo"></div>
-  </section>
+  </article>
 </body>
 </html>

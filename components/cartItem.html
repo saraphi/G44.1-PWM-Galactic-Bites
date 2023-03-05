@@ -2,30 +2,37 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>cart_item</title>
-    <!--falta css-->
-    <link rel= "stylesheet" href="styles/cart_item.css" type="text/css">
+    <title>Cart Item</title>
+    <link rel= "stylesheet" href="styles/items/cartItem.css" type="text/css">
 </head>
 <body>
-    <div class="item_general">
-        <div class="item_diplay">
-            <img class="item_img">
-            <div class="text container">
-                <h1 class="title">Lorem Ipsum</h1>
-                <h2 class="description">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h2>
+    <article class="cart-item">
+        <div class="item-display">
+            <img class="item-img" src="../assets/Placeholder.png">
+            <div class="text-container">
+                <h3 class="title">Lorem Ipsum</h3>
+                <p class="description">
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                    consectetur, adipisci velit...
+                </p>
             </div>
         </div>
-        <div class="quantity_price">
-            <h3 class="quantity_text">Cantidad:</h3>
-            <h3 class="price_text">Precio:</h3>
-            <button class="add_button"></button>
-            <button class="remove_button"></button>
-            <output class="quantity"></output>
-            <output class="price"></output>
+
+        <div class="right-section">
+            <div class="remove-button-container">
+                <img id="remove" class="button" src="../assets/icons/x-key.png">
+            </div>
+
+
+            <div class="quantity-price">
+                <label class="text">Cantidad:</label>
+                <img id="add" class="button" src="../assets/icons/plus-key.png">
+                <output class="quantity">0</output>
+                <img id="sub" class="button" src="../assets/icons/minus-key.png">
+                <label class="price-text">Precio:</label>
+                <output class="price">0 €</output>
+            </div>
         </div>
-        <div class="close_button_container">
-            <button class="close_button"></button>
-        </div>
-    </div>
+    </article>
 </body>
 </html>
