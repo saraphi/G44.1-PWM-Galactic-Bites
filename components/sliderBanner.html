@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <title>Slider Banner</title>
     <script src="https://www.w3schools.com/lib/w3data.js"></script>
+    <link rel="stylesheet" href="styles/sliders/sliderBanner.css" type="text/css">
 </head>
 <body>
-    <div class="sliderProducts">
-        <button id="left" class="arrow-button">Siguiente</button>
-        <li class ="slider">
-            <a href="#"><img class="banner" src="../assets/Placeholder.png"></a>
-            <a href="#"><img class="banner" src="../assets/Placeholder.png"></a>
-            <a href="#"><img class="banner" src="../assets/Placeholder.png"></a>
-
-        </li>
-        <button id="right" class="arrow-button">Anterior</button>
+    <div class="slider-banner">
+        <a class="banner-link" href="#"><img class="banner" src="../assets/Placeholder.png"></a>
+        <div class="above-section">
+            <button id="left" class="arrow-button"><img src="../assets/icons/slider-left.png"/></button>
+            <button id="right" class="arrow-button"><img src="../assets/icons/slider-rigth.png"/></button>
+        </div>
     </div>
 </body>
 <script>w3IncludeHTML();</script>
