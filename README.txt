@@ -1,5 +1,5 @@
 La intencionalidad de este documento es facilitar el entendimiento de la distribucion de los templates.
-Debido a que tuvimos problemas para organizar por directorios, 	que desarrollo del proximo sprint realizaremos los cambios pertinentes. 
+Dividiremos los directorios en el próximo sprint.
 
 header.html junto con header.css representa el header del sitio web.
 
