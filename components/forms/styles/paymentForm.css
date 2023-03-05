@@ -15,35 +15,58 @@
     color: var(--white);
     font-family: "Raleway", sans-serif;
 }
-.payment-form{
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-form {
     justify-content: space-between;
     align-items: center;
 
     width: 400px;
-    height: 550px;
+    height: 620px;
     padding: 30px 50px 50px 50px;
 
     background-color: var(--black);
-
     border-radius: 30px;
 }
 
 .payment-form h2 {
-
     text-transform: uppercase;
     font-size: 25pt;
     text-align: center;
 }
 
-.payment-form .section { display: flex;
-    flex-direction: column;
+.payment-form .section {
     width: 380px;
-    display: flex;
-    align-items: center;
-}
-.payment-form .section input{
+    justify-content: space-between;
+    align-items: start;
 
+}
+
+.payment-form .section .input-section {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.payment-form .section .input-section .date-section {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 25pt;
+    font-weight: normal;
+}
+.small { width: 20%; }
+.payment-form .section .input-section .date-section #year-expire { margin-left: 10px;}
+
+.payment-form .section .input-section label {
+    margin: 0px 0px 8px 10px;
+    font-weight: bold;
+}
+
+.payment-form .section .input-section input {
     height: 2em;
 
     border-radius: 30px;
@@ -53,19 +76,19 @@
     position: relative;
     font-size: 14px;
     font-weight: bold;
-    margin-bottom: 20px;
-    padding: 5px 12px;
 
+    padding: 5px 12px;
 }
-.payment-form .section input::placeholder {
+
+.payment-form .section .input-section input::placeholder {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     color: var(--white-low);
     padding-left: 5px;
 }
 
-.payment-form .section input:focus { box-shadow: 0px 0px 40px var(--violet); }
-.payment-form .section input:hover { box-shadow: 0px 0px 40px var(--violet); }
+.payment-form .section .input-section input:focus { box-shadow: 0px 0px 30px var(--violet); }
+.payment-form .section .input-section input:hover { box-shadow: 0px 0px 30px var(--violet); }
 .payment-form a { width: 80%; }
 
 .payment-form a .input-button {
@@ -92,3 +115,15 @@
 }
 
 .payment-form a .input-button:active { transform: translateY(5px); }
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
