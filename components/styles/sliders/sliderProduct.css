@@ -30,8 +30,10 @@
     overflow: hidden;
 }
 
-.product-container { padding: 10px 45px 10px 45px;}
-.product-container .product { border: 2px solid var(--white) }
+.product-container {
+    margin: 10px 45px 10px 45px;
+    border: 2px solid var(--white)
+}
 
 .arrow-button {
     display: flex;
