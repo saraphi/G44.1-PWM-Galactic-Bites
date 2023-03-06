@@ -1,0 +1,19 @@
+@import "../basic.css";
+@import "../lists/listNewsAndOffers.css";
+
+.offers .main-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 2px solid var(--black);
+    background-color: var(--black);
+
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+
+    font-size: 30pt;
+    text-transform: uppercase;
+    color: var(--white);
+}

@@ -1,0 +1,118 @@
+@import "../basic.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.row { display: flex; }
+
+header {
+    font-weight: bold;
+    position: sticky;
+    justify-content: space-between;
+    background-color: var(--black);
+    height: 65px;
+}
+
+.left-side { justify-content: space-between; }
+.right-side {
+    justify-content: space-between;
+    width: 15vw;
+    margin: 0px 10px 0px 0px;
+}
+
+.navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 30vw;
+}
+
+.navbar-item {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-link {
+    display: flex;
+    align-items: center;
+
+    height: 4rem;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: var(--white-low);
+    font-size: 12pt;
+}
+
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+
+    color: var(--white-low);
+
+    width: 60px;
+    margin-right: 10px;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.points label {
+    font-size: 9pt;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.points-output {
+    width: 100%;
+    height: 1.2em;
+    font-size: 8pt;
+    color: var(--black);
+    background-color: var(--white);
+}
+
+header .img-container {
+    padding: 10px;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .img-container img { background-color: var(--white); }
+
+#logo { margin: 0px 10px 0px 10px; }
+
+#logo img {
+    width: 65px;
+    height: 100%;
+}
+
+#shopping-car img {
+    width: 35px;
+    height: 35px;
+}
+
+#profile-icon img {
+    height: 35px;
+    width: 35px;
+}
+
+.navbar-item .navbar-link .link-text:hover { color: var(--aquamarine); }

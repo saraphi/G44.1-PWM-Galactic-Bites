@@ -1,0 +1,53 @@
+@import "../basic.css";
+
+* { font-weight: bold; }
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 30em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 70%;
+    margin: -27em 40px 0 0;
+    align-self: end;
+    align-items: end;
+}
+
+.container-info .button {
+    position: relative;
+    font-size: 15pt;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.container-info .title {
+    position: relative;
+    color: var(--white);
+    font-size: 60pt;
+    text-align: end;
+    width: 100%;
+    -webkit-text-stroke: 2px var(--black);
+}
+
+.container .banner {
+    width: 100%;
+    height: 30em;
+    background-color: var(--white);
+}
+
+.container-info .button:hover { color: var(--aquamarine); }
+.container-info .button:active { transform: translateY(4px); }

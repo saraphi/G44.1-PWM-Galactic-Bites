@@ -1,0 +1,38 @@
+@import "../basic.css";
+@import "../lists/listProductItem.css";
+
+body { height: 100%; }
+
+.choose-complement-article {
+    background-color: var(--white);
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+
+    height: 100%;
+}
+
+.choose-complement-article .title {
+    margin: 40px 10px 40px 10px;
+    font-size: 50pt;
+    text-transform: uppercase;
+}
+
+.choose-complement-article .product-list .product { width: 17%; }
+.choose-complement-article .product-list .product .product { width: 100%;}
+
+.choose-complement-article footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin: 100px 0px 40px 0px;
+}
+
+.choose-complement-article footer .arrow-button {
+    background-color: var(--white);
+    width: 50px;
+    height: 50px;
+}
+
+.choose-complement-article footer .arrow-button:hover { box-shadow: 0px 0px 10px var(--violet); }
+.choose-complement-article footer .arrow-button:active { transform: translateY(4px); }

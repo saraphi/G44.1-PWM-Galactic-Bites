@@ -1,0 +1,35 @@
+@import "../basic.css";
+@import "../items/clickableImageItem.css";
+@import "../items/productItem.css";
+
+.text-box {
+    display: flex;
+
+    justify-content: center;
+
+    background-color: var(--black);
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.clickable-image-box {
+    display: inline-flex;
+    width: 100%;
+    background-color: var(--white);
+}
+
+.clickable-image .clickable-image { width: 100%; }
+
+.product-item-box {
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: -5px;
+    width: 100%;
+}
+
+.product-item-box .product {
+    width: 25%;
+    height: 300px;
+}
+.product-item-box .product .product { width: 100%; }

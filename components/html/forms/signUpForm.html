@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="../../css/forms/signUpForm.css" type="text/css">
+</head>
+<body>
+  <form class="sign-form column">
+    <h2>Registrar Usuario</h2>
+
+    <div class="input-section column">
+      <input id="name" class="input-text" type="text" placeholder="Nombre">
+      <input id="email" class="input-text" type="email" placeholder="Correo electrónico *">
+      <input id="phone" class="input-text" type="tel" placeholder="Teléfono">
+      <input id="password-first" class="input-text" type="password" placeholder="Contraseña *">
+      <input id="password-repeat" class="input-text" type="password" placeholder="Repite tu contraseña *">
+    </div>
+
+    <div class="checkbox-list">
+      <div class="checkbox-item">
+        <input id="accept-usage" type="checkbox" value="valorCheckbox">
+        <label for="accept-usage">Acepto Términos de uso</label>
+      </div>
+      <div class="checkbox-item">
+        <input id="accept-inscription" type="checkbox" value="valorCheckbox">
+        <label for="accept-inscription">Inscribirse para recibir novedades y descuentos</label>
+      </div>
+    </div>
+
+    <a class="input-link" href="#"><button id="signup-button" class="input-button">Enviar</button></a>
+  </form>
+</body>
+</html>

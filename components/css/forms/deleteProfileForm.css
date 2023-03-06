@@ -1,0 +1,99 @@
+@import "../basic.css";
+
+* {
+    color: var(--white);
+    font-weight: bold;
+}
+
+.delete-form {
+    justify-content: space-between;
+    align-items: center;
+
+    width: 350px;
+    height: 380px;
+    padding: 30px 50px 50px 50px;
+
+    background-color: var(--black);
+
+    border-radius: 30px;
+}
+
+.delete-form .title {
+    text-transform: uppercase;
+    font-size: 25pt;
+    margin-bottom: -20px;
+}
+
+.delete-form .content-section {
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    height: 55%;
+    width: 90%;
+}
+
+.delete-form .content-section .description { margin-bottom: 30px; }
+.delete-form .content-section .input-section { width: 320px; }
+
+.delete-form .content-section .input-section input {
+    height: 2em;
+
+    border-radius: 30px;
+    border: 3px solid transparent;
+    background: linear-gradient(black, black) padding-box, linear-gradient(to right, var(--aquamarine), var(--violet)) border-box;
+
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 5px 12px;
+}
+
+.delete-form .button-section {
+    display: flex;
+    width: 125%;
+    margin-left: 88px;
+}
+
+.delete-form .content-section .input-section input::placeholder {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    color: var(--white-low);
+    padding-left: 5px;
+}
+
+.delete-form .content-section .input-section input:focus { box-shadow: 0px 0px 40px var(--violet); }
+.delete-form .content-section .input-section input:hover { box-shadow: 0px 0px 40px var(--violet); }
+.delete-form .button-section a { width: 80%; }
+
+.delete-form .button-section a .input-button {
+    width: 130px;
+    height: 40px;
+
+    background-color: var(--black);
+
+    font-size: 14pt;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.delete-form .button-section a #cancel-button {
+    box-shadow: 0px 3px 5px var(--aquamarine);
+    color: var(--aquamarine);
+}
+
+.delete-form .button-section a #delete-button {
+    box-shadow: 0px 3px 5px var(--red);
+    color: var(--red);
+}
+
+.delete-form .button-section a #cancel-button:hover {
+    background-color: var(--aquamarine);
+    color: var(--black);
+}
+
+.delete-form .button-section a #delete-button:hover {
+    background-color: var(--red);
+    color: var(--black);
+}
+
+.delete-form .button-section a .input-button:active { transform: translateY(5px); }
