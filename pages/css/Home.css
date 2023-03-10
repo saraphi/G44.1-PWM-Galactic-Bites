@@ -1,2 +1,13 @@
 @import "BasicForPage.css";
+@import "../../components/css/sliders/sliderBanner.css";
+
+@import "../../components/css/sliders/sliderProduct.css";
+@import "../../components/css/sections/pageSection.css";
+
+body{
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
 
