@@ -1,37 +1,35 @@
 @import "../basic.css";
 
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
-
-.row { display: flex; }
-
 header {
-    font-weight: bold;
     position: sticky;
-    justify-content: space-between;
-    background-color: var(--black);
+    width: 100%;
     height: 65px;
-}
 
-.left-side { justify-content: space-between; }
-.right-side {
+    display: flex;
     justify-content: space-between;
-    width: 15vw;
-    margin: 0px 10px 0px 0px;
+
+    background-color: var(--black);
+
+    font-weight: bold;
 }
 
-.navbar-list {
-    list-style: none;
+header .left-side { display: flex; }
+header .left-side .navbar { display: flex; }
+
+header .left-side .navbar .navbar-list {
+    width: 550px;
+
     padding: 0;
     margin: 0;
-    width: 30vw;
+
+    display: flex;
+
+    list-style: none;
 }
 
-.navbar-item {
+header .left-side .navbar .navbar-list .navbar-item {
     width: 100%;
+
     padding: 0px 10px 0px 10px;
 
     display: flex;
@@ -39,11 +37,11 @@ header {
     justify-content: center;
 }
 
-.navbar-link {
+header .left-side .navbar .navbar-list .navbar-item .navbar-link {
+    height: 100%;
+
     display: flex;
     align-items: center;
-
-    height: 4rem;
 
     text-decoration: none;
     text-transform: uppercase;
@@ -53,14 +51,24 @@ header {
     font-size: 12pt;
 }
 
-.profile-info {
+header .right-side {
+    width: 220px;
+    margin: 0px 10px 0px 0px;
+
     display: flex;
     justify-content: space-between;
+}
+
+
+header .right-side .profile-info {
+    display: flex;
+    justify-content: space-between;
+
     margin: 0;
     padding: 0;
 }
 
-.points {
+header .right-side .profile-info .points {
     display: flex;
     flex-direction: column;
 
@@ -73,13 +81,13 @@ header {
     align-items: flex-start;
 }
 
-.points label {
+header .right-side .profile-info .points label {
     font-size: 9pt;
     text-transform: uppercase;
     font-style: italic;
 }
 
-.points-output {
+header .right-side .profile-info .points-output {
     width: 100%;
     height: 1.2em;
     font-size: 8pt;
@@ -96,23 +104,18 @@ header .img-container {
     align-items: center;
 }
 
-header .img-container img { background-color: var(--white); }
+header img {
+    height: 35px;
+    width: 35px;
 
-#logo { margin: 0px 10px 0px 10px; }
+    background-color: var(--white);
+}
 
-#logo img {
+header .left-side #logo { margin: 0px 10px 0px 10px; }
+
+header .left-side #logo img {
     width: 65px;
     height: 100%;
 }
 
-#shopping-car img {
-    width: 35px;
-    height: 35px;
-}
-
-#profile-icon img {
-    height: 35px;
-    width: 35px;
-}
-
-.navbar-item .navbar-link .link-text:hover { color: var(--aquamarine); }
+header .left-side .navbar .navbar-list .navbar-item .navbar-link .link-text:hover { color: var(--aquamarine); }

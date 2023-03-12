@@ -1,13 +1,18 @@
-@import "BasicForPage.css";
-@import "../../components/css/sliders/sliderBanner.css";
-
+@import "../../components/css/base/header.css";
+@import "../../components/css/banners/bannerMain.css";
 @import "../../components/css/sliders/sliderProduct.css";
 @import "../../components/css/sections/pageSection.css";
+@import "../../components/css/base/footer.css";
 
-body{
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
+body {
+    margin: 0;
+    width: 100%;
 }
 
+header {
+    position: sticky;
+}
 
+.pages-section-home {
+    display: flex;
+}
