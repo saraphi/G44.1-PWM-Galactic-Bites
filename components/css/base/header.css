@@ -1,11 +1,11 @@
 @import "../basic.css";
 
-header {
+.page-header {
     position: sticky;
     width: 100%;
     height: 65px;
     top:0;
-    z-index: 1;
+    z-index: 200;
 
     display: flex;
     justify-content: space-between;
@@ -15,10 +15,9 @@ header {
     font-weight: bold;
 }
 
-header .left-side { display: flex; }
-header .left-side .navbar { display: flex; }
-
-header .left-side .navbar .navbar-list {
+.page-header .left-side { display: flex; }
+.page-header .left-side .navbar { display: flex; }
+.page-header .left-side .navbar .navbar-list {
     width: 550px;
 
     padding: 0;
@@ -29,7 +28,7 @@ header .left-side .navbar .navbar-list {
     list-style: none;
 }
 
-header .left-side .navbar .navbar-list .navbar-item {
+.page-header .left-side .navbar .navbar-list .navbar-item {
     width: 100%;
 
     padding: 0px 10px 0px 10px;
@@ -39,7 +38,7 @@ header .left-side .navbar .navbar-list .navbar-item {
     justify-content: center;
 }
 
-header .left-side .navbar .navbar-list .navbar-item .navbar-link {
+.page-header .left-side .navbar .navbar-list .navbar-item .navbar-link {
     height: 100%;
 
     display: flex;
@@ -53,7 +52,7 @@ header .left-side .navbar .navbar-list .navbar-item .navbar-link {
     font-size: 12pt;
 }
 
-header .right-side {
+.page-header .right-side {
     width: 220px;
     margin: 0px 10px 0px 0px;
 
@@ -62,7 +61,7 @@ header .right-side {
 }
 
 
-header .right-side .profile-info {
+.page-header .right-side .profile-info {
     display: flex;
     justify-content: space-between;
 
@@ -70,7 +69,7 @@ header .right-side .profile-info {
     padding: 0;
 }
 
-header .right-side .profile-info .points {
+.page-header .right-side .profile-info .points {
     display: flex;
     flex-direction: column;
 
@@ -83,13 +82,13 @@ header .right-side .profile-info .points {
     align-items: flex-start;
 }
 
-header .right-side .profile-info .points label {
+.page-header .right-side .profile-info .points label {
     font-size: 9pt;
     text-transform: uppercase;
     font-style: italic;
 }
 
-header .right-side .profile-info .points-output {
+.page-header .right-side .profile-info .points-output {
     width: 100%;
     height: 1.2em;
     font-size: 8pt;
@@ -97,7 +96,7 @@ header .right-side .profile-info .points-output {
     background-color: var(--white);
 }
 
-header .img-container {
+.page-header .img-container {
     padding: 10px;
     margin: 0;
 
@@ -106,18 +105,18 @@ header .img-container {
     align-items: center;
 }
 
-header img {
+.page-header img {
     height: 35px;
     width: 35px;
 
     background-color: var(--white);
 }
 
-header .left-side #logo { margin: 0px 10px 0px 10px; }
+.page-header .left-side #logo { margin: 0px 10px 0px 10px; }
 
-header .left-side #logo img {
+.page-header .left-side #logo img {
     width: 65px;
     height: 100%;
 }
 
-header .left-side .navbar .navbar-list .navbar-item .navbar-link .link-text:hover { color: var(--aquamarine); }
+.page-header .left-side .navbar .navbar-list .navbar-item .navbar-link .link-text:hover { color: var(--aquamarine); }

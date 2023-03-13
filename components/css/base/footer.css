@@ -1,4 +1,4 @@
-footer {
+.page-footer {
     display: flex;
     flex-direction: column;
     font-weight: bold;
@@ -12,7 +12,7 @@ footer {
     color: var(--white);
 }
 
-footer .info {
+.page-footer .info {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -23,7 +23,7 @@ footer .info {
     padding: 10px;
 }
 
-footer .copyright {
+.page-footer .copyright {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
