@@ -1,10 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>News</title>
+    <script src="https://www.w3schools.com/lib/w3data.js"></script>
+    <link rel= "stylesheet" href="../css/News.css" type="text/css">
 </head>
 <body>
+<header w3-include-html="../../components/html/base/header.html"></header>
+<main>
+    <div class ="cart">
+        <div  w3-include-html="../../components/html/items/cartItem.html"></div>
+        <div  w3-include-html="../../components/html/items/cartItem.html"></div>
+        <div  w3-include-html="../../components/html/items/cartItem.html"></div>
 
+    </div>
+    <div>
+        <p>Lorem Ipsum</p>
+        <button>Comprar</button>
+    </div>
+
+
+</main>
+<footer w3-include-html="../../components/html/base/footer.html"></footer>
 </body>
+<script>w3IncludeHTML();</script>
 </html>
