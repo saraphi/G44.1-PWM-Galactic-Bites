@@ -1,5 +1,6 @@
+@import "../basic.css";
 
-* { color: var(--white); }
+* { }
 
 .sign-form {
     justify-content: space-between;
@@ -10,6 +11,7 @@
     padding: 30px 50px 50px 50px;
 
     background-color: var(--black);
+    color: var(--white);
 
     border-radius: 30px;
 }

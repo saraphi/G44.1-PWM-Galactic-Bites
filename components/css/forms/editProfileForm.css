@@ -1,10 +1,5 @@
 @import "../basic.css";
 
-* {
-    color: var(--white);
-    font-weight: bold;
-}
-
 .edit-form {
     justify-content: space-between;
     align-items: center;
@@ -14,6 +9,8 @@
     padding: 30px 50px 50px 50px;
 
     background-color: var(--black);
+    color: var(--white);
+    font-weight: bold;
 
     border-radius: 30px;
 }

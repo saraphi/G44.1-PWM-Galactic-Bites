@@ -2,7 +2,7 @@
 @import "../items/clickableImageItem.css";
 @import "../items/productItem.css";
 
-.text-box {
+.points-section .text-box {
     display: flex;
 
     justify-content: center;
@@ -12,15 +12,15 @@
     text-transform: uppercase;
 }
 
-.clickable-image-box {
+.points-section .content-box .clickable-image-box {
     display: inline-flex;
     width: 100%;
     background-color: var(--white);
 }
 
-.clickable-image .clickable-image { width: 100%; }
+.points-section .content-box .clickable-image-box .clickable-image-container .clickable-image { width: 100%; }
 
-.product-item-box {
+.points-section .content-box .product-item-box {
     display: flex;
     flex-wrap: wrap;
 
@@ -28,8 +28,12 @@
     width: 100%;
 }
 
-.product-item-box .product {
+.points-section .content-box .product-item-box .product-container {
     width: 25%;
     height: 300px;
 }
-.product-item-box .product .product { width: 100%; }
+
+.points-section .content-box .product-item-box .product-container .product {
+    width: 100%;
+    height: 100%;
+}

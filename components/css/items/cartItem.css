@@ -2,6 +2,7 @@
 
 .cart-item {
     display: flex;
+    justify-content: space-between;
     height: 300px;
     width: 100%;
     background-color: var(--violet);
@@ -30,7 +31,7 @@
     flex-direction: column;
     height: 100%;
     margin-left: 40px;
-    width: 65%;
+    width: 500px;
 }
 
 .cart-item .item-display .text-container .title {
@@ -41,7 +42,7 @@
 
 .cart-item .right-section {
     padding: 20px 20px 40px 20px;
-    width: 45%;
+    width: 320px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -54,7 +55,7 @@
 .cart-item .right-section .quantity-price {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 100%;
     margin-right: 20px;
     align-self: end;
 }

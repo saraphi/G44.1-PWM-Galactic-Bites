@@ -1,6 +1,4 @@
-
-
-* { color: var(--white); }
+@import "../basic.css";
 
 .login-form {
     justify-content: space-between;
@@ -11,6 +9,7 @@
     padding: 30px 50px 50px 50px;
 
     background-color: var(--black);
+    color: var(--white);
 
     border-radius: 30px;
 }

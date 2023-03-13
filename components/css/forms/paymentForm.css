@@ -1,7 +1,5 @@
 @import "../basic.css";
 
-* { color: var(--white); }
-
 .payment-form {
     justify-content: space-between;
     align-items: center;
@@ -11,6 +9,7 @@
     padding: 30px 50px 50px 50px;
 
     background-color: var(--black);
+    color: var(--white);
     border-radius: 30px;
 }
 
@@ -39,7 +38,7 @@
     font-size: 25pt;
     font-weight: normal;
 }
-.small { width: 20%; }
+.payment-form .small { width: 20%; }
 .payment-form .section .input-section .date-section #year-expire { margin-left: 10px;}
 
 .payment-form .section .input-section label {
@@ -98,13 +97,13 @@
 .payment-form a .input-button:active { transform: translateY(5px); }
 
 /* Chrome, Safari, Edge, Opera */
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
+.payment-form input::-webkit-outer-spin-button,
+.payment-form input::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
 
 /* Firefox */
-input[type=number] {
+.payment-form input[type=number] {
     -moz-appearance: textfield;
 }

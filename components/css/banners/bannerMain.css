@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-.container-info {
+.container .container-info {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,7 +22,7 @@
     align-items: end;
 }
 
-.container-info .button {
+.container .container-info .button {
     position: relative;
     font-size: 15pt;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
     color: var(--white);
 }
 
-.container-info .title {
+.container .container-info .title {
     position: relative;
     color: var(--white);
     font-size: 60pt;
@@ -49,5 +49,5 @@
     background-color: var(--white);
 }
 
-.container-info .button:hover { color: var(--aquamarine); }
-.container-info .button:active { transform: translateY(4px); }
+.container .container-info .button:hover { color: var(--aquamarine); }
+.container .container-info .button:active { transform: translateY(4px); }

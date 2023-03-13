@@ -5,18 +5,18 @@
     background-color: var(--black);
 }
 
-.banner-link {
+.slider-banner .banner-link {
     height: 100%;
     width: 100%;
 }
 
-.banner {
+.slider-banner .banner-link .banner {
     height: 100%;
     width: 100%;
     background-color: var(--white);
 }
 
-.above-section {
+.slider-banner .above-section {
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -24,7 +24,7 @@
     margin-top: -380px;
 }
 
-.arrow-button {
+.slider-banner .above-section .arrow-button {
     display: flex;
     align-self: center;
     justify-content: center;
@@ -39,15 +39,16 @@
     margin: 0px 20px 0px 20px;
 }
 
-.arrow-button img {
+.slider-banner .above-section .arrow-button img {
     width: 70%;
     height: 70%;
 
     margin-left: 10%;
 }
 
-.arrow-button:hover {
+.slider-banner .above-section .arrow-button:hover {
     box-shadow: 0px 0px 50px var(--violet);
     background: linear-gradient(to right, var(--aquamarine), var(--violet)) border-box;
 }
-.arrow-button:active { transform: translateY(4px); }
+
+.slider-banner .above-section .arrow-button:active { transform: translateY(4px); }

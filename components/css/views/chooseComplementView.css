@@ -1,8 +1,6 @@
 @import "../basic.css";
 @import "../lists/listProductItem.css";
 
-body { height: 100%; }
-
 .choose-complement-article {
     background-color: var(--white);
     align-items: center;
@@ -17,8 +15,12 @@ body { height: 100%; }
     text-transform: uppercase;
 }
 
-.choose-complement-article .product-list .product { width: 17%; }
-.choose-complement-article .product-list .product .product { width: 100%;}
+.choose-complement-article .product-list .product-container { width: 17%; }
+
+.choose-complement-article .product-list .product-container .product {
+    width: 100%;
+    height: 98%;
+}
 
 .choose-complement-article footer {
     display: flex;
